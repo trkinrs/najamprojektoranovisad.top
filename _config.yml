@@ -1,0 +1,23 @@
+# Site settings
+title:       Iznajmljivanje Top Projektora Novi Sad
+tagline:     Najpovoljniji top projektori u Novom Sadu
+description: Naš biznis se bavi iznajmljivanjem visokokvalitetnih projektora za različite događaje, uključujući konferencije, seminare i privatne proslave. Nudimo povoljne cene, fleksibilne uslove najma i tehničku podršku kako bismo obezbedili besprekorno iskustvo za naše klijente.
+email:       projektor.novisad@gmail.com
+address:     Sime Milutinovića Sarajlije 9
+description: "Najpovoljniji top projektori u Novom Sadu"
+baseurl:     ""
+url:         "https://najamprojektora.top"
+date_format: "%b %-d, %Y"
+locale:      sr
+
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
